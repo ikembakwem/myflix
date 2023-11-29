@@ -39,7 +39,7 @@ export const Header = () => {
 
             <div className="mt-6">
               {/* CTA form */}
-              <div className="max-w-[61.5rem] px-6 mx-auto ">
+              <div className="max-w-[61.5rem] px-6 mx-auto flex flex-col items-center">
                 <h3 className="leading-tight text-lg lg:text-xl">
                   Eager to begin? Share your email to create or resume your
                   membership.
