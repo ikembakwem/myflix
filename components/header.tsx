@@ -30,17 +30,17 @@ export const Header = () => {
         {/* Hero Copy container */}
         <div className="m-auto max-w-heroContainer flex items-center flex-col">
           <div className="basis-6/12 z-1 w-full">
-            <h1 className="text-[2rem] leading-none font-semibold">
+            <h1 className="text-[2rem] lg:text-5xl leading-none font-semibold">
               Explore Movies, TV shows, and more
             </h1>
-            <p className="leading-tight text-lg mt-6">
+            <p className="leading-tight text-lg mt-6 lg:text-2xl">
               Watch anywhere. Cancel anytime.
             </p>
 
             <div className="mt-6">
               {/* CTA form */}
               <div className="max-w-[61.5rem] px-6 mx-auto ">
-                <h3 className="leading-tight text-lg">
+                <h3 className="leading-tight text-lg lg:text-xl">
                   Eager to begin? Share your email to create or resume your
                   membership.
                 </h3>
