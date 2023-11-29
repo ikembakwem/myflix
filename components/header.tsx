@@ -2,6 +2,7 @@
 import LogoIcon from "@assets/icons/logo.svg";
 import Link from "next/link";
 import ArrowIcon from "@assets/icons/arrow.svg";
+import { Line } from "./line";
 
 export const Header = () => {
   const divStyles = {
@@ -69,8 +70,7 @@ export const Header = () => {
             </div>
           </div>
         </div>
-
-        <div className="w-full absolute h-2 -bottom-2 bg-darkGray" />
+        <Line />
       </div>
     </div>
   );
