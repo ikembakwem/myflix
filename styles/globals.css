@@ -10,8 +10,9 @@ a {
   text-decoration: none;
 }
 
-ol, ul {
-  list-style: none
+ol,
+ul {
+  list-style: none;
 }
 
 @tailwind base;
@@ -20,4 +21,8 @@ ol, ul {
 
 body {
   scrollbar-width: thin;
+}
+
+:root {
+  --primary: rgb(229, 9, 20);
 }
