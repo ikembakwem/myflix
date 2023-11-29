@@ -10,6 +10,7 @@ module.exports = {
         primary: "var(--primary)",
         mediumGray: "var(--medium-gray)",
         lightGray: "var(--light-gray)",
+        darkGray: "var(--dark-gray)",
       },
       screens: {
         tablet: "40rem",
