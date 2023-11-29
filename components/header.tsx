@@ -47,14 +47,14 @@ export const Header = () => {
                   <form action="">
                     <div className="flex flex-col items-center text-left relative mt-4 w-full max-w-xl">
                       <div className="w-full">
-                        <div className="flex flex-col items-center text-white w-full">
+                        <div className="flex flex-col tablet:flex-row items-center text-white w-full">
                           <input
                             placeholder="Enter email address"
                             aria-label="Email signup form"
                             type="text"
-                            className="bg-transparent outline-white flex leading-normal w-full rounded-md px-4 min-h-[48px] min-w-[16px] border border-lightGray"
+                            className="outline-white flex leading-normal w-full rounded-md px-4 min-h-[48px] tablet:min-h-[56px] min-w-[16px] border border-lightGray bg-mediumGray"
                           />
-                          <button className="inline-flex py-2 px-4 rounded-md h-12 items-center leading-none text-xl bg-primary text-white mt-4">
+                          <button className="inline-flex py-2 px-4 rounded-md h-12 items-center leading-none font-medium text-xl bg-primary text-white mt-4 tablet:mt-0 tablet:shrink-0 tablet:basis-auto tablet:ml-2 tablet:h-14 tablet:text-2xl">
                             Get started
                             <span className="ml-2">
                               <ArrowIcon />
