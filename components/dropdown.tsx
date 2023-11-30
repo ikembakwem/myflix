@@ -24,7 +24,7 @@ export const Dropdown = ({ data }: Props) => {
     >
       <h3 className="flex mb-[1px] relative bg-darkerGray transition-colors duration-[250ms] ease-subtle">
         <button className="p-6 w-full flex items-center justify-between">
-          <span>{data.title}</span>
+          <span className="text-left">{data.title}</span>
           <>
             <PlusIcon className={`lg:hidden ${isOpen && "-rotate-45"}`} />
             <PlusLgIcon
