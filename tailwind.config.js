@@ -17,7 +17,8 @@ module.exports = {
       },
       maxWidth: {
         navContainer: "calc(83.33333333333334% - 6rem)",
-        heroContainer: "calc(100% - 3rem)",
+        container: "calc(100% - 3rem)",
+        containerMedium: "calc(100% - 4rem)",
       },
       backgroundImage: {
         gradientCinema:

@@ -28,7 +28,7 @@ export const Header = () => {
         </div>
 
         {/* Hero Copy container */}
-        <div className="m-auto max-w-heroContainer flex items-center flex-col">
+        <div className="m-auto max-w-container flex items-center flex-col">
           <div className="basis-6/12 z-1 w-full">
             <h1 className="text-[2rem] lg:text-5xl leading-none font-semibold">
               Explore Movies, TV shows, and more
