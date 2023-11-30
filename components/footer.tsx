@@ -30,7 +30,7 @@ const Footer = () => {
                   {linkData.map((link) => (
                     <li
                       key={link.label}
-                      className="shrink-0 basis-6/12 lg:basis-3/12 inline-flex mt-4"
+                      className="shrink-0 basis-6/12 md:basis-1/3 lg:basis-3/12 inline-flex mt-4"
                     >
                       <Link href={link.href} className="hover:underline">
                         {link.label}
