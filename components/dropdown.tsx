@@ -4,7 +4,17 @@ import { useState } from "react";
 import PlusIcon from "@assets/icons/plus.svg";
 import PlusLgIcon from "@assets/icons/plus-lg.svg";
 
-export const Dropdown = () => {
+export type DropdownData = {
+  title: string;
+  desc: string;
+  extDesc?: string;
+};
+
+type Props = {
+  data: DropdownData;
+};
+
+export const Dropdown = ({ data }: Props) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -14,7 +24,7 @@ export const Dropdown = () => {
     >
       <h3 className="flex mb-[1px] relative bg-darkerGray transition-colors duration-[250ms] ease-subtle">
         <button className="p-6 w-full flex items-center justify-between">
-          <span>What is Iykeflix</span>
+          <span>{data.title}</span>
           <>
             <PlusIcon className={`lg:hidden ${isOpen && "-rotate-45"}`} />
             <PlusLgIcon
@@ -23,17 +33,18 @@ export const Dropdown = () => {
           </>
         </button>
       </h3>
-      <div
-        className={`overflow-hidden ${
-          isOpen ? "visible" : "collapse"
-        } text-left p-6 bg-darkerGray transition-all duration-[0.25s] ease-softly max-h-[75rem]`}
-      >
-        <span>
-          Netflix is a streaming service that offers a wide variety of
-          award-winning TV shows, movies, anime, documentaries, and more on
-          thousands of internet-connected devices.
-        </span>
-      </div>
+      {isOpen && (
+        <div
+          className={`visible text-left p-6 bg-darkerGray transition-all duration-[0.25s] ease-softly max-h-[75rem]`}
+        >
+          <span>
+            {data.desc}
+            <br />
+            <br />
+            {data.extDesc}
+          </span>
+        </div>
+      )}
     </div>
   );
 };
