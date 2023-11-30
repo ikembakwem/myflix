@@ -1,3 +1,4 @@
+import { CTAForm } from "./cta-form";
 import { Dropdown, DropdownData } from "./dropdown";
 
 const dropdownData: DropdownData = {
@@ -47,11 +48,12 @@ export const FAQSection = () => {
         <h3 className="text-[2rem] lg:text-5xl leading-tight text-center text-white font-semibold mb-6">
           Frequently Asked Questions
         </h3>
-        <Dropdown data={dropdownData} />
-        <Dropdown data={dropdownData} />
         {faqData.map((faq, idx) => (
           <Dropdown key={idx} data={faq} />
         ))}
+        <div className="mt-11">
+          <CTAForm />
+        </div>
       </div>
     </section>
   );

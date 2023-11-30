@@ -19,7 +19,7 @@ export const Dropdown = ({ data }: Props) => {
 
   return (
     <div
-      className="mb-4 text-white text-lg lg:text-2xl bg-transparent"
+      className="mb-2 text-white text-lg lg:text-2xl bg-transparent"
       onClick={() => setIsOpen((prev) => (prev = !prev))}
     >
       <h3 className="flex mb-[1px] relative bg-darkerGray transition-colors duration-[250ms] ease-subtle">
