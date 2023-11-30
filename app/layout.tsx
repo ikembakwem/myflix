@@ -4,8 +4,9 @@ import Footer from "@components/footer";
 import { Header } from "@components/header";
 
 export const metadata: Metadata = {
-  title: "NextJS App Project",
-  description: "Description for the App goes here.",
+  title: "Iykeflix - Watch TV Shows Online, Watch Movies Online",
+  description:
+    "Watch Iykeflix movies & TV shows online or stream right to your smart TV, game console, PC, Mac, mobile, tablet and more.",
 };
 
 function RootLayout({ children }: { children: React.ReactNode }) {

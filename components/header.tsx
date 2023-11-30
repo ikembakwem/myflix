@@ -1,8 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import LogoIcon from "@assets/icons/logo.svg";
-import Link from "next/link";
 import ArrowIcon from "@assets/icons/arrow.svg";
-import { Line } from "./line";
 
 export const Header = () => {
   const divStyles = {
@@ -70,7 +67,6 @@ export const Header = () => {
             </div>
           </div>
         </div>
-        <Line />
       </div>
     </div>
   );
