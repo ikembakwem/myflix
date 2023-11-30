@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import PlusIcon from "@assets/icons/plus.svg";
-import PlusLgIcon from "@assets/icons/plus-lg.svg";
+import PlusIcon from "@components/icons/plus.svg";
+import PlusLgIcon from "@components/icons/plus-lg.svg";
 
 export type DropdownData = {
   title: string;

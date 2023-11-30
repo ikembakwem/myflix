@@ -1,5 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-import ArrowIcon from "@assets/icons/arrow.svg";
 import { CTAForm } from "./cta-form";
 
 export const Header = () => {

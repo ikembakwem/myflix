@@ -21,7 +21,7 @@ const Footer = () => {
       <div className="w-full h-auto">
         <div className="inline-flex flex-wrap w-full">
           <div className="shrink-0 basis-full">
-            <h3 className="hover:underline">Qustions? Contact us.</h3>
+            <h3 className="hover:underline">Questions? Contact us.</h3>
           </div>
           <div className="shrink-0 basis-full">
             <div className="w-full my-3 text-sm ">

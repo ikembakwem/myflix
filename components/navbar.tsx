@@ -1,4 +1,4 @@
-import LogoIcon from "@assets/icons/logo.svg";
+import LogoIcon from "@components/icons/logo.svg";
 import Link from "next/link";
 
 export const Navigation = () => {
