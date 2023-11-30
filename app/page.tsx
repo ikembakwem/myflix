@@ -1,4 +1,5 @@
 import { Divider } from "@components/divider";
+import { FAQSection } from "@components/faq-section";
 import { Navigation } from "@components/navbar";
 import { Section } from "@components/section";
 
@@ -37,6 +38,8 @@ const Home = () => {
       <Section data={sections[2]} />
       <Divider />
       <Section data={sections[3]} direction="reverseFlow" />
+      <Divider />
+      <FAQSection />
       <Divider />
     </>
   );

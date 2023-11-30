@@ -28,4 +28,5 @@ body {
   --light-gray: rgba(128, 128, 128, 0.7);
   --medium-gray: rgba(22, 22, 22, 0.7);
   --dark-gray: rgb(35, 35, 35);
+  --darker-gray: rgb(45, 45, 45);
 }

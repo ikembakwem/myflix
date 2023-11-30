@@ -11,6 +11,7 @@ module.exports = {
         mediumGray: "var(--medium-gray)",
         lightGray: "var(--light-gray)",
         darkGray: "var(--dark-gray)",
+        darkerGray: "var(--darker-gray)",
       },
       screens: {
         tablet: "40rem",
@@ -23,6 +24,10 @@ module.exports = {
       backgroundImage: {
         gradientCinema:
           "linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%)",
+      },
+      transitionTimingFunction: {
+        subtle: "cubic-bezier(0.9, 0, 0.51, 1)",
+        softly: "cubic-bezier(0.5, 0, 0.1, 1)",
       },
     },
   },
