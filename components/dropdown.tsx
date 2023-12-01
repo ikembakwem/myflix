@@ -22,7 +22,7 @@ export const Dropdown = ({ data }: Props) => {
       className="mb-2 text-white text-lg lg:text-2xl bg-transparent"
       onClick={() => setIsOpen((prev) => (prev = !prev))}
     >
-      <h3 className="flex mb-[1px] relative bg-darkerGray transition-colors duration-[250ms] ease-subtle">
+      <h3 className="flex mb-[1px] relative bg-darkerGray transition-colors duration-[250ms] ease-subtle hover:bg-lighterGray">
         <button className="p-6 w-full flex items-center justify-between">
           <span className="text-left">{data.title}</span>
           <>
@@ -33,18 +33,19 @@ export const Dropdown = ({ data }: Props) => {
           </>
         </button>
       </h3>
-      {isOpen && (
-        <div
-          className={`visible text-left p-6 bg-darkerGray transition-all duration-[0.25s] ease-softly max-h-[75rem]`}
-        >
-          <span>
-            {data.desc}
-            <br />
-            <br />
-            {data.extDesc}
-          </span>
-        </div>
-      )}
+
+      <div
+        className={`${
+          isOpen ? "visible max-h-[75rem]" : "collapse max-h-0"
+        } text-left bg-darkerGray transition-all duration-[0.25s] ease-softly overflow-hidden`}
+      >
+        <span className="inline-block p-6">
+          {data.desc}
+          <br />
+          <br />
+          {data.extDesc}
+        </span>
+      </div>
     </div>
   );
 };

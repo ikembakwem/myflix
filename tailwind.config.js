@@ -8,8 +8,9 @@ module.exports = {
     extend: {
       colors: {
         primary: "var(--primary)",
-        mediumGray: "var(--medium-gray)",
         lightGray: "var(--light-gray)",
+        lighterGray: "var(--lighter-gray)",
+        mediumGray: "var(--medium-gray)",
         darkGray: "var(--dark-gray)",
         darkerGray: "var(--darker-gray)",
       },
