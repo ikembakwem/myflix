@@ -1,13 +1,6 @@
 import { CTAForm } from "./cta-form";
 import { Dropdown, DropdownData } from "./dropdown";
 
-const dropdownData: DropdownData = {
-  title: "What is Iykeflix",
-  desc: "Iykeflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
-  extDesc:
-    "You can watch as much as you want, whenever you want without a single commercial &arr; all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!",
-};
-
 const faqData: DropdownData[] = [
   {
     title: "What is Iykeflix",
@@ -48,8 +41,8 @@ export const FAQSection = () => {
         <h3 className="text-[2rem] lg:text-5xl leading-tight text-center text-white font-semibold mb-6">
           Frequently Asked Questions
         </h3>
-        {faqData.map((faq, idx) => (
-          <Dropdown key={idx} data={faq} />
+        {faqData.map((faq) => (
+          <Dropdown key={faq.title} data={faq} />
         ))}
         <div className="mt-11">
           <CTAForm />
