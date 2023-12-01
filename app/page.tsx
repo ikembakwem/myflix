@@ -29,7 +29,10 @@ const sections = [
 const Home = () => {
   return (
     <>
-      <HeroSection />
+      <HeroSection
+        heading="Explore Movies, TV shows, and more"
+        subHeading="Watch anywhere. Cancel anytime."
+      />
       <Divider />
       <Section data={sections[0]} />
       <Divider />

@@ -1,7 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
 import { CTAForm } from "./cta-form";
 
-export const HeroSection = () => {
+export const HeroSection = ({
+  heading,
+  subHeading,
+}: {
+  heading: string;
+  subHeading: string;
+}) => {
   const divStyles = {
     backgroundImage:
       "linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%)",
@@ -28,10 +34,10 @@ export const HeroSection = () => {
         <div className="m-auto max-w-container flex items-center flex-col">
           <div className="basis-6/12 z-1 w-full">
             <h1 className="text-[2rem] lg:text-5xl leading-none font-semibold">
-              Explore Movies, TV shows, and more
+              {heading}
             </h1>
             <p className="leading-tight text-lg mt-6 lg:text-2xl">
-              Watch anywhere. Cancel anytime.
+              {subHeading}
             </p>
 
             <div className="mt-6">
