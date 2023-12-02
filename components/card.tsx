@@ -2,15 +2,15 @@ export type CardData = {
   title: string;
   desc: string;
   fee?: string;
+  icon?: React.ReactNode;
 };
 
 type Props = {
-  icon?: React.ReactNode;
   data: CardData;
   withIcon?: boolean;
 };
 
-export const Card = ({ icon, data, withIcon = false }: Props) => {
+export const Card = ({ data, withIcon = false }: Props) => {
   return (
     <div
       className={`grow rounded-2xl relative flex grow-1 ${
@@ -32,7 +32,7 @@ export const Card = ({ icon, data, withIcon = false }: Props) => {
           <p className={`${withIcon && "hidden"} font-semibold mt-3 leading-5`}>
             {data.fee}
           </p>
-          {icon}
+          {data.icon}
         </div>
       </div>
     </div>

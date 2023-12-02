@@ -28,7 +28,7 @@ export const CardSection = () => {
     <section className="my-14">
       <div className="max-w-container md:max-w-containerMedium lg:max-w-navContainer mx-auto">
         <div>
-          <h3 className="capitalize text-lg mt-3 font-medium lg:ml-3">
+          <h3 className="capitalize text-lg mt-3 font-medium lg:text-2xl lg:ml-3">
             A plan to suit your needs
           </h3>
         </div>
