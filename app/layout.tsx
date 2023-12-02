@@ -4,9 +4,9 @@ import Footer from "@components/footer";
 import { Header } from "@components/header";
 
 export const metadata: Metadata = {
-  title: "Iykeflix - Watch TV Shows Online, Watch Movies Online",
+  title: "Onyonyo - Watch TV Shows Online, Watch Movies Online",
   description:
-    "Watch Iykeflix movies & TV shows online or stream right to your smart TV, game console, PC, Mac, mobile, tablet and more.",
+    "Watch Onyonyo movies & TV shows online or stream right to your smart TV, game console, PC, Mac, mobile, tablet and more.",
 };
 
 function RootLayout({ children }: { children: React.ReactNode }) {

@@ -14,7 +14,7 @@ const faqData: DropdownData[] = [
   },
   {
     title: "Where can I watch?",
-    desc: "Watch anytime, anywhere. Log in to your Onyonyo account to instantly stream on the web at netflix.com from your computer or any internet-connected device with the Onyonyo app, like smart TVs, smartphones, tablets, streaming media players, and game consoles.",
+    desc: "Watch anytime, anywhere. Log in to your Onyonyo account to instantly stream on the web at onyonyo.com from your computer or any internet-connected device with the Onyonyo app, like smart TVs, smartphones, tablets, streaming media players, and game consoles.",
     extDesc:
       "Download your preferred shows with the iOS, Android, or Windows 10 app. Utilize downloads for on-the-go viewing without an internet connection. Carry Onyonyo with you everywhere.",
   },
