@@ -1,5 +1,7 @@
+import { CardSection } from "@components/cards-section";
 import { Divider } from "@components/divider";
 import { FAQSection } from "@components/faq-section";
+import { FeaturesSection } from "@components/features-section";
 import { HeroSection } from "@components/hero-section";
 import { Section } from "@components/section";
 
@@ -33,6 +35,10 @@ const Home = () => {
         heading="Explore Movies, TV shows, and more"
         subHeading="Watch anywhere. Cancel anytime."
       />
+      <Divider />
+      <CardSection />
+      <Divider />
+      <FeaturesSection />
       <Divider />
       <Section data={sections[0]} />
       <Divider />

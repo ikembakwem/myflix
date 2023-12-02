@@ -20,7 +20,8 @@ ul {
 @tailwind utilities;
 
 body {
-  scrollbar-width: thin;
+  background-color: #000;
+  color: #fff;
 }
 
 :root {
