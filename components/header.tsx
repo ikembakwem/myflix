@@ -15,7 +15,7 @@ export const Header = ({
   };
   return (
     <header>
-      <div className="relative flex justify-center text-white text-center h-full min-h-[30rem] pb-8 lg:min-h-[43.75rem]">
+      <div className="relative flex justify-center text-white h-full min-h-[30rem] pb-8 lg:min-h-[43.75rem]">
         {/* background container */}
         <div className="absolute -z-10 h-full w-full top-0 left-0">
           <div className="relative w-full h-full overflow-hidden">
@@ -33,8 +33,8 @@ export const Header = ({
         <div>
           <NavigationBar />
           {/* Hero Copy container */}
-          <div className="m-auto pt-4 tablet:pt-8 tablet:pb-12 lg:pt-10 lg:pb-16 max-w-container flex items-center flex-col">
-            <div className="basis-6/12 z-1 w-full">
+          <div className="m-auto pt-4 px-6 tablet:pt-8 tablet:pb-12 lg:pt-10 lg:pb-16 max-w-container flex items-center flex-col">
+            <div className="basis-6/12 w-full text-left">
               <h1 className="text-[2rem] lg:text-5xl leading-none font-semibold">
                 {heading}
               </h1>
