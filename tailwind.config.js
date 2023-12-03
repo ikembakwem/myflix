@@ -16,7 +16,7 @@ module.exports = {
       },
       screens: {
         lg: "960px",
-        tablet: "40rem",
+        tablet: "640px",
       },
       maxWidth: {
         navContainer: "calc(83.33333333333334% - 6rem)",

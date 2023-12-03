@@ -17,7 +17,7 @@ const linkData = [
 
 const Footer = () => {
   return (
-    <footer className="px-6 py-8 text-white/70 bg-black">
+    <footer className="py-8 text-white/70 bg-black">
       <div className="w-full h-auto max-w-container md:max-w-containerMedium lg:max-w-navContainer mx-auto">
         <div className="inline-flex flex-wrap w-full ">
           <div className="shrink-0 basis-full">
@@ -30,7 +30,7 @@ const Footer = () => {
                   {linkData.map((link) => (
                     <li
                       key={link.label}
-                      className="shrink-0 basis-6/12 md:basis-4/12 xl:basis-3/12 inline-flex mt-4"
+                      className="shrink-0 basis-full tablet:basis-1/2 md:basis-1/3 lg:basis-3/12 inline-flex mt-4"
                     >
                       <Link href={link.href} className="hover:underline">
                         {link.label}
