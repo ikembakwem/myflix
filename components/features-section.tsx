@@ -2,6 +2,7 @@ import { Card, CardData } from "./card";
 import TVIcon from "@components/icons/tv.svg";
 import DownloadIcon from "@components/icons/download-core.svg";
 import TelescopeIcon from "@components/icons/telescope.svg";
+import ProfileIcon from "@components/icons/profiles.svg";
 
 const featuresData: CardData[] = [
   {
@@ -22,7 +23,7 @@ const featuresData: CardData[] = [
   {
     title: "Make profiles tailored for kids",
     desc: "Dive into a world made for kids with beloved characters — all free with membership.",
-    icon: <TVIcon />,
+    icon: <ProfileIcon />,
   },
 ];
 
