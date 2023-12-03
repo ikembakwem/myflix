@@ -1,7 +1,5 @@
 import "@styles/globals.css";
 import type { Metadata } from "next";
-import Footer from "@components/footer";
-import { Header } from "@components/header";
 
 export const metadata: Metadata = {
   title: "Onyonyo - Watch TV Shows Online, Watch Movies Online",
@@ -12,11 +10,7 @@ export const metadata: Metadata = {
 function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body>
-        <Header />
-        <main>{children}</main>
-        <Footer />
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

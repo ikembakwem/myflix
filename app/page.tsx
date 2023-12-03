@@ -2,7 +2,8 @@ import { CardSection } from "@components/cards-section";
 import { Divider } from "@components/divider";
 import { FAQSection } from "@components/faq-section";
 import { FeaturesSection } from "@components/features-section";
-import { HeroSection } from "@components/hero-section";
+import Footer from "@components/footer";
+import { Header } from "@components/header";
 import { Section } from "@components/section";
 
 const sections = [
@@ -31,25 +32,28 @@ const sections = [
 const Home = () => {
   return (
     <>
-      <HeroSection
+      <Header
         heading="Explore Movies, TV shows, and more"
         subHeading="Watch anywhere. Cancel anytime."
       />
-      <Divider />
-      <CardSection />
-      <Divider />
-      <FeaturesSection />
-      <Divider />
-      <Section data={sections[0]} />
-      <Divider />
-      <Section data={sections[1]} direction="reverseFlow" />
-      <Divider />
-      <Section data={sections[2]} />
-      <Divider />
-      <Section data={sections[3]} direction="reverseFlow" />
-      <Divider />
-      <FAQSection />
-      <Divider />
+      <main>
+        <Divider />
+        <CardSection />
+        <Divider />
+        <FeaturesSection />
+        <Divider />
+        <Section data={sections[0]} />
+        <Divider />
+        <Section data={sections[1]} direction="reverseFlow" />
+        <Divider />
+        <Section data={sections[2]} />
+        <Divider />
+        <Section data={sections[3]} direction="reverseFlow" />
+        <Divider />
+        <FAQSection />
+        <Divider />
+      </main>
+      <Footer />
     </>
   );
 };
