@@ -30,21 +30,23 @@ export const Header = ({
             ></div>
           </div>
         </div>
-        <div>
+        <div className="w-full">
           <NavigationBar />
           {/* Hero Copy container */}
-          <div className="m-auto lg:mt-32 pt-4 px-6 tablet:pt-12 tablet:pb-12 lg:pt-12 lg:pb-16 max-w-container flex items-center flex-col">
-            <div className="basis-6/12 w-full text-left">
-              <h1 className="text-[2rem] lg:text-5xl leading-none font-semibold">
-                {heading}
-              </h1>
-              <p className="leading-tight text-lg mt-6 lg:text-2xl">
-                {subHeading}
-              </p>
+          <div className="px-6 w-full h-auto max-w-[120rem] m-auto mt-14 lg:mt-20 lg:px-20 xl:px-[148px]">
+            <div className="w-full text-left">
+              <div className="max-w-full lg:max-w-[31.75rem]">
+                <h1 className="text-[2rem] lg:text-5xl leading-none font-semibold">
+                  {heading}
+                </h1>
+                <p className="leading-tight text-lg mt-6 lg:text-2xl">
+                  {subHeading}
+                </p>
 
-              <div className="mt-6">
-                {/* CTA form */}
-                <CTAForm />
+                <div className="mt-6">
+                  {/* CTA form */}
+                  <CTAForm />
+                </div>
               </div>
             </div>
           </div>

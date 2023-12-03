@@ -18,8 +18,8 @@ const linkData = [
 const Footer = () => {
   return (
     <footer className="px-6 py-8 text-white/70 bg-black">
-      <div className="w-full h-auto">
-        <div className="inline-flex flex-wrap w-full">
+      <div className="w-full h-auto max-w-container md:max-w-containerMedium lg:max-w-navContainer mx-auto">
+        <div className="inline-flex flex-wrap w-full ">
           <div className="shrink-0 basis-full">
             <h3 className="hover:underline">Questions? Contact us.</h3>
           </div>

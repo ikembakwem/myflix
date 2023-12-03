@@ -2,7 +2,7 @@ import ArrowIcon from "@components/icons/arrow.svg";
 
 export const CTAForm = () => {
   return (
-    <div className="max-w-[61.5rem] text-white mx-auto flex flex-col">
+    <div className="w-full max-w-[61.5rem] text-white flex flex-col">
       <h3 className="leading-tight text-lg lg:text-xl">
         Eager to begin? Share your email to create or resume your membership.
       </h3>

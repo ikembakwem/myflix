@@ -15,8 +15,8 @@ module.exports = {
         darkerGray: "var(--darker-gray)",
       },
       screens: {
-        tablet: "40rem",
         lg: "960px",
+        tablet: "40rem",
       },
       maxWidth: {
         navContainer: "calc(83.33333333333334% - 6rem)",
@@ -34,7 +34,8 @@ module.exports = {
         softly: "cubic-bezier(0.5, 0, 0.1, 1)",
       },
       flexBasis: {
-        withM3: "calc(50% - .75rem)",
+        onethirdM3: "calc(50% - .75rem)",
+        oneFourthM4: "calc(25% - 1rem)",
       },
     },
   },
