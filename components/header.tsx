@@ -33,7 +33,7 @@ export const Header = ({
         <div>
           <NavigationBar />
           {/* Hero Copy container */}
-          <div className="m-auto pt-4 px-6 tablet:pt-8 tablet:pb-12 lg:pt-10 lg:pb-16 max-w-container flex items-center flex-col">
+          <div className="m-auto lg:mt-32 pt-4 px-6 tablet:pt-12 tablet:pb-12 lg:pt-12 lg:pb-16 max-w-container flex items-center flex-col">
             <div className="basis-6/12 w-full text-left">
               <h1 className="text-[2rem] lg:text-5xl leading-none font-semibold">
                 {heading}

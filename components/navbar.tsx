@@ -3,13 +3,13 @@ import Link from "next/link";
 
 export const NavigationBar = () => {
   return (
-    <nav className="p-6 mx-auto xl:max-w-navContainer">
-      <div className="flex justify-between items-center w-full">
+    <nav className="p-6 mx-auto">
+      <div className="flex justify-between items-base w-full">
         <Link href="/">
           <img
             src="/assets/images/logo.png"
             alt="Onyonyo logo"
-            className="h-11 lg:h-14 "
+            className="h-6 lg:h-[29px] "
           />
         </Link>
         <Link
