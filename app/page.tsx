@@ -1,12 +1,12 @@
-import { CardSection } from "@components/cards-section";
+import { PricingSection } from "@components/pricing-section";
 import { Divider } from "@components/divider";
 import { FAQSection } from "@components/faq-section";
 import { FeaturesSection } from "@components/features-section";
 import Footer from "@components/footer";
 import { Header } from "@components/header";
-import { Section } from "@components/section";
+import { SectionCard } from "@components/section-card";
 
-const sections = [
+const sectionData = [
   {
     title: "Enjoy content on your TV",
     desc: "View on Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players, and beyond.",
@@ -38,18 +38,21 @@ const Home = () => {
       />
       <main>
         <Divider />
-        <CardSection />
-        <Divider />
         <FeaturesSection />
         <Divider />
-        <Section data={sections[0]} />
+        <PricingSection />
         <Divider />
-        <Section data={sections[1]} direction="reverseFlow" />
-        <Divider />
-        <Section data={sections[2]} />
-        <Divider />
-        <Section data={sections[3]} direction="reverseFlow" />
-        <Divider />
+
+        {/* Large section cards */}
+        {sectionData.map((data, idx) => (
+          <section key={data.title}>
+            <SectionCard
+              data={data}
+              direction={`${idx % 2 === 1 ? "reverseFlow" : "normalFlow"}`}
+            />
+            <Divider />
+          </section>
+        ))}
         <FAQSection />
         <Divider />
       </main>

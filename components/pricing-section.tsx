@@ -1,6 +1,6 @@
 import { Card, CardData } from "./card";
 
-const cardsData: CardData[] = [
+const pricingData: CardData[] = [
   {
     title: "Mobile",
     desc: "On-the-go mobile-friendly choice.",
@@ -23,7 +23,7 @@ const cardsData: CardData[] = [
   },
 ];
 
-export const CardSection = () => {
+export const PricingSection = () => {
   return (
     <section className="my-14">
       <div className="max-w-container md:max-w-containerMedium lg:max-w-navContainer mx-auto">
@@ -33,7 +33,7 @@ export const CardSection = () => {
           </h3>
         </div>
         <div className="flex flex-col lg:flex-row lg:flex-wrap w-full">
-          {cardsData.map((data) => (
+          {pricingData.map((data) => (
             <Card key={data.title} data={data} />
           ))}
         </div>

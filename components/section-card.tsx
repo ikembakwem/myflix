@@ -10,9 +10,9 @@ type Props = {
   data: SectionData;
 };
 
-export const Section = ({ direction = "normalFlow", data }: Props) => {
+export const SectionCard = ({ direction = "normalFlow", data }: Props) => {
   return (
-    <section className="flex relative justify-center bg-black text-white text-center min-h-auto py-14 tablet:py-[4.5rem] h-full">
+    <div className="flex relative justify-center bg-black text-white text-center min-h-auto py-14 tablet:py-[4.5rem] h-full">
       <div
         className={`m-auto max-w-container md:max-w-containerMedium xl:max-w-navContainer flex flex-col ${
           direction === "reverseFlow" ? "lg:flex-row-reverse" : "lg:flex-row"
@@ -42,6 +42,6 @@ export const Section = ({ direction = "normalFlow", data }: Props) => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
