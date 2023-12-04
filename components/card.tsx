@@ -20,16 +20,16 @@ export const Card = ({ data, withIcon = false }: Props) => {
       <div className="w-full inline-flex flex-col px-4 pt-8 pb-10 flex-wrap justify-between text-white">
         <div>
           <h3
-            className={`mt-3 text-2xl font-medium ${
+            className={`mt-3 min-h-[48px] text-2xl font-medium ${
               !withIcon && "uppercase"
-            } leading-none`}
+            } ${withIcon && "xl:min-h-[72px]"} leading-none`}
           >
             {data.title}
           </h3>
           <p className="mt-3 font-light leading-5">{data.desc}</p>
         </div>
-        <div className={`flex ${withIcon && "justify-end"}`}>
-          <p className={`${withIcon && "hidden"} font-semibold mt-4 leading-5`}>
+        <div className={`flex ${withIcon && "justify-end"} mt-4`}>
+          <p className={`${withIcon && "hidden"} font-semibold leading-5`}>
             {data.fee}
           </p>
           {data.icon}

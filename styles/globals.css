@@ -26,9 +26,17 @@ body {
 
 :root {
   --primary: rgb(229, 9, 20);
+  --gray-10: rgba(128, 128, 128, 0.7);
+  --gray-20: rgb(65, 65, 65);
+  --gray-30: rgb(51, 51, 51);
+  --gray-40: rgb(45, 45, 45);
+  --gray-50: rgb(35, 35, 35);
+  --gray-60: rgba(22, 22, 22, 0.7);
+
   --light-gray: rgba(128, 128, 128, 0.7);
   --lighter-gray: rgb(65, 65, 65);
-  --medium-gray: rgba(22, 22, 22, 0.7);
-  --dark-gray: rgb(35, 35, 35);
+  --darkest-gray: rgb(51, 51, 51);
   --darker-gray: rgb(45, 45, 45);
+  --dark-gray: rgb(35, 35, 35);
+  --medium-gray: rgba(22, 22, 22, 0.7);
 }

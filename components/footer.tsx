@@ -41,7 +41,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="shrink-0 basis-full mt-4 pt-4 text-base font-light border-t border-lightGray">
+          <div className="shrink-0 basis-full mt-4 pt-4 text-base font-light border-t border-gray-10">
             Onyonyo &copy; {new Date().getFullYear()}
           </div>
         </div>

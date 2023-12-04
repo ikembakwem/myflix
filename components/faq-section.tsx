@@ -36,9 +36,9 @@ const faqData: DropdownData[] = [
 
 export const FAQSection = () => {
   return (
-    <section className="bg-black py-[4.5rem] lg:px-20">
+    <section className="bg-black py-[72px] lg:px-20">
       <div className="mx-auto max-w-container xl:max-w-navContainer md:max-w-containerMedium lg:pr-[20%]">
-        <h3 className="text-[2rem] lg:text-5xl leading-tight text-center text-white font-semibold mb-6">
+        <h3 className="text-[32px] lg:text-5xl leading-tight text-white font-semibold mb-6">
           Frequently Asked Questions
         </h3>
         {faqData.map((faq) => (

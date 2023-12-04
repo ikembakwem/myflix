@@ -8,11 +8,14 @@ module.exports = {
     extend: {
       colors: {
         primary: "var(--primary)",
-        lightGray: "var(--light-gray)",
-        lighterGray: "var(--lighter-gray)",
-        mediumGray: "var(--medium-gray)",
-        darkGray: "var(--dark-gray)",
-        darkerGray: "var(--darker-gray)",
+        gray: {
+          10: "var(--gray-10)",
+          20: "var(--gray-20)",
+          30: "var(--gray-30)",
+          40: "var(--gray-40)",
+          50: "var(--gray-50)",
+          60: "var(--gray-60)",
+        },
       },
       screens: {
         lg: "960px",
